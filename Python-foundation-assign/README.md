@@ -1,36 +1,91 @@
-# Python Foundation Assignments
+# Python Foundations Assignment
 
-This repository contains three Python assignments demonstrating foundational concepts ranging from basic math operations to building an interactive command-line game.
+## 📌 Project Description
 
-## Included Scripts
+This repository contains solutions to three fundamental Python programming tasks. Each task is designed to demonstrate core programming concepts such as conditional logic, loops, functions, and basic game development.
 
-### 1. Level 1: Prime Number Checker (`level1_prime.py`)
+## 🚀 Implemented Tasks
 
-This script determines whether a user-provided number is a prime number.
+### 🔹 Level 1: Prime Number Checker
 
-- **How it works:** It prompts the user to enter an integer. It then mathematically checks if the number is greater than 1 and divisible only by 1 and itself using a loop up to the square root of the number for optimized performance.
-- **Usage:** Run the script and type a number when prompted.
+A Python program that determines whether a given number is a prime number.
 
-### 2. Level 2: Find the Largest Number (`level2_largest.py`)
+**Key Concepts:**
 
-This script finds and returns the largest number from a user-provided list.
+* Conditional statements
+* Loops
+* Mathematical logic
 
-- **How it works:** It prompts the user to input a series of numbers separated by spaces. It parses the input, iterates through the numbers to find the maximum value, and prints the result.
-- **Usage:** Run the script and enter multiple numbers separated by spaces (e.g., `12 45 7 89 23`).
+### 🔹 Level 2: Largest Number Finder
 
-### 3. Level 3: Tic-Tac-Toe Game (`level3_tictactoe.py`)
+A function that takes a list of numbers as input and returns the largest value.
 
-A complete, interactive command-line implementation of the classic Tic-Tac-Toe game.
+**Key Concepts:**
 
-- **How it works:** Two players take turns as "X" and "O". The game displays a 3x3 grid and prompts players to enter the row and column (0, 1, or 2) where they want to place their mark. The script automatically checks for a win condition (horizontal, vertical, or diagonal) or a draw (when the board becomes full).
-- **Usage:** Run the script to start the game. Follow the interactive prompts to place your pieces on the board.
+* Lists
+* Iteration
+* Comparison operations
 
-## How to Run
 
-Make sure you have Python 3 installed. You can execute any of these scripts from the terminal using the following commands:
+### 🔹 Level 3: Tic-Tac-Toe Game (CLI-Based)
 
-```bash
-python level1_prime.py
-python level2_largest.py
-python level3_tictactoe.py
+A simple command-line Tic-Tac-Toe game for two players (X and O). The game allows players to take turns, checks for a winner, and detects a draw.
+
+**Key Concepts:**
+
+* Functions and modular design
+* Game logic
+* Input validation
+* Loops and condition handling
+
+## 📂 Project Structure
+
 ```
+python-foundations-assignment/
+│
+├── level1_prime.py          # Prime number checker
+├── level2_largest.py        # Largest number finder
+├── level3_tictactoe.py      # Tic-Tac-Toe CLI game
+└── README.md                # Project documentation
+```
+
+---
+
+## ▶️ How to Run the Programs
+
+Make sure Python is installed on your system.
+
+### Run Level 1:
+
+python level1_prime.py
+
+### Run Level 2:
+
+python level2_largest.py
+
+### Run Level 3:
+
+python level3_tictactoe.py
+
+
+## 🛠️ Requirements
+
+* Python 3.x
+* No external libraries required
+
+
+## ✨ Features
+
+* Clean and readable code
+* Well-structured functions
+* Beginner-friendly implementation
+* Fully functional CLI game
+
+
+## 👤 Author
+
+**Kebek Guta**
+
+## 📜 License
+[Kebi G.](https://github.com/yahwe388-droid/Data_science_bootcamp)
+
