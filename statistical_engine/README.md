@@ -75,3 +75,6 @@ Run the main analysis:
 
 ### Author:
 Kebek Guta
+
+## 📜 License
+[Kebi G.](https://github.com/yahwe388-droid/Data_science_bootcamp)
