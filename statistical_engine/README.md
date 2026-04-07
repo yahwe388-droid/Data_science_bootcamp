@@ -1,16 +1,16 @@
-# Statistical Engineering Project
+# 📊 Statistical Engineering Project
 
-## Overview
+## 📌 Overview
 This project builds a pure Python statistical engine (StatEngine) to analyze 1D numerical data and perform statistical calculations. It also includes a Monte Carlo simulation to model server crashes, demonstrating the Law of Large Numbers (LLN).
 
-## Key features:
+##  🔑 Key features:
 
 - Compute central tendency (mean, median, mode)
 - Measure dispersion (variance, standard deviation)
 - Detect outliers
 - Simulate probabilistic events with large datasets
 
-## Mathematical Logic
+## 🧠 Mathematical Logic
 
 ### Mean
 Sum of values divided by number of values.
@@ -25,16 +25,16 @@ Sum of values divided by number of values.
 
 ### Standard Deviation
 Square root of variance.
-## Setup Instructions
+## ⚙️ Setup Instructions
 Clone the repository:
-- git clone <your-repo-link>
+- git clone https://github.com/yahwe388-droid/Data_science_bootcamp/edit/main/statistical_engine or <your-repo-link>
 Navigate to the project folder:
 - cd statistical_engine
 Run the main analysis:
 - python main.py
 
 
-## ✅ Acceptance Criteria Checklist
+##  Acceptance Criteria Checklist
 
 ### 🔹 Data Validation & Error Handling
 - [x] Passes **empty dataset handling** (raises ValueError)
@@ -72,3 +72,6 @@ Run the main analysis:
 - [x] Unit tests verify **mean, median (odd/even), standard deviation**
 - [x] Tests include **error handling cases**
 - [x] All tests run successfully using `unittest`
+
+### Author:
+Kebek Guta
